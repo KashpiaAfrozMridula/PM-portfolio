@@ -16,7 +16,7 @@ const Workflow: React.FC = () => {
                 <div className="hidden md:block absolute top-4 left-1/2 w-full h-[1px] bg-gray-200 -z-0"></div>
               )}
               
-              <div className="w-8 h-8 rounded-full bg-white border border-gray-300 flex items-center justify-center mb-8 z-10 group-hover:border-black group-hover:bg-black group-hover:text-white transition-all duration-300">
+              <div className="w-8 h-8 rounded-full bg-white border border-gray-300 flex items-center justify-center mb-8 z-10 group-hover:border-[#100B28] group-hover:bg-[#100B28] group-hover:text-white transition-all duration-300">
                 <span className="font-mono font-medium text-xs">{idx + 1}</span>
               </div>
               

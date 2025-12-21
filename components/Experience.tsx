@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
                     const parts = highlight.split(/(\d+%|\d+K\+|\$\d+K\+|\d+)/g);
                     return (
                       <li key={hIdx} className="text-base md:text-lg text-gray-600 font-light leading-relaxed">
-                        <span className="inline-block w-2 h-2 rounded-full bg-gray-200 mr-4 group-hover:bg-blue-600 transition-colors mb-0.5"></span>
+                        <span className="inline-block w-2 h-2 rounded-full bg-gray-200 mr-4 group-hover:bg-[#7D69D7] transition-colors mb-0.5"></span>
                         {parts.map((part, i) => (
                           part.match(/(\d+%|\d+K\+|\$\d+K\+|\d+)/) 
                             ? <span key={i} className="font-semibold text-gray-900">{part}</span> 

@@ -11,13 +11,13 @@ const Contact: React.FC = () => {
         </h2>
         
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-          <a href="mailto:kashpiamridula@gmail.com" className="group flex items-center text-xl md:text-2xl font-light hover:text-blue-600 transition-colors">
-            <span className="border-b border-gray-300 pb-1 group-hover:border-blue-600 transition-colors">kashpiamridula@gmail.com</span>
-            <ArrowUpRight className="ml-3 w-6 h-6 text-gray-300 group-hover:text-blue-600 group-hover:-translate-y-1 group-hover:translate-x-1 transition-all" strokeWidth={1.5} />
+          <a href="mailto:kashpiamridula@gmail.com" className="group flex items-center text-xl md:text-2xl font-light hover:text-[#7D69D7] transition-colors">
+            <span className="border-b border-gray-300 pb-1 group-hover:border-[#7D69D7] transition-colors">kashpiamridula@gmail.com</span>
+            <ArrowUpRight className="ml-3 w-6 h-6 text-gray-300 group-hover:text-[#7D69D7] group-hover:-translate-y-1 group-hover:translate-x-1 transition-all" strokeWidth={1.5} />
           </a>
-          <a href="#" className="group flex items-center text-xl md:text-2xl font-light hover:text-blue-600 transition-colors">
-             <span className="border-b border-gray-300 pb-1 group-hover:border-blue-600 transition-colors">LinkedIn</span>
-             <ArrowUpRight className="ml-3 w-6 h-6 text-gray-300 group-hover:text-blue-600 group-hover:-translate-y-1 group-hover:translate-x-1 transition-all" strokeWidth={1.5} />
+          <a href="#" className="group flex items-center text-xl md:text-2xl font-light hover:text-[#7D69D7] transition-colors">
+             <span className="border-b border-gray-300 pb-1 group-hover:border-[#7D69D7] transition-colors">LinkedIn</span>
+             <ArrowUpRight className="ml-3 w-6 h-6 text-gray-300 group-hover:text-[#7D69D7] group-hover:-translate-y-1 group-hover:translate-x-1 transition-all" strokeWidth={1.5} />
           </a>
         </div>
 

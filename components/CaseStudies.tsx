@@ -10,7 +10,7 @@ const CaseStudies: React.FC = () => {
   };
 
   return (
-    <section id="case-studies" className="py-32 px-6 md:px-12 bg-black text-white">
+    <section id="case-studies" className="py-32 px-6 md:px-12 bg-[#100B28] text-white">
       <div className="max-w-7xl mx-auto">
         <div className="mb-24 border-b border-gray-800 pb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div>
@@ -30,12 +30,12 @@ const CaseStudies: React.FC = () => {
             >
               <button 
                 onClick={() => toggleOpen(study.id)}
-                className="w-full text-left py-12 flex flex-col md:flex-row justify-between items-start md:items-center bg-black focus:outline-none group hover:bg-gray-900/50 transition-colors"
+                className="w-full text-left py-12 flex flex-col md:flex-row justify-between items-start md:items-center bg-[#100B28] focus:outline-none group hover:bg-gray-900/50 transition-colors"
               >
                 <div className="flex items-start gap-8">
                     <span className="font-mono text-gray-600 text-sm mt-1">0{index + 1}</span>
                     <div className="space-y-2">
-                        <span className="text-[10px] font-bold font-mono text-blue-500 uppercase tracking-[0.2em] block mb-2">{study.subtitle}</span>
+                        <span className="text-[10px] font-bold font-mono text-[#7D69D7] uppercase tracking-[0.2em] block mb-2">{study.subtitle}</span>
                         <h3 className="text-3xl md:text-5xl font-medium text-white tracking-tighter group-hover:text-gray-300 transition-colors">{study.title}</h3>
                     </div>
                 </div>

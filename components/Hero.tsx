@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             <h1 className="text-6xl md:text-9xl font-medium tracking-tighter leading-[0.9] text-gray-900 mb-10">
                 Product <br className="hidden md:block"/>
                 Strategist <span className="text-gray-300 font-light">&</span> <br />
-                AI Builder<span className="text-blue-600">.</span>
+                AI Builder<span className="text-[#7D69D7]">.</span>
             </h1>
         </div>
           
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
                 </p>
                 
                 <div className="flex gap-8 mt-12">
-                    <a href="#case-studies" className="group flex items-center text-sm font-bold uppercase tracking-widest text-black hover:text-blue-600 transition-colors">
+                    <a href="#case-studies" className="group flex items-center text-sm font-bold uppercase tracking-widest text-black hover:text-[#7D69D7] transition-colors">
                         Selected Work
                         <ArrowDownRight className="ml-2 w-4 h-4 group-hover:translate-x-1 group-hover:translate-y-1 transition-transform" />
                     </a>

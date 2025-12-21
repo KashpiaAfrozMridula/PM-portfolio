@@ -14,7 +14,7 @@ const About: React.FC = () => {
           </div>
           <div className="md:col-span-8 space-y-8">
             {ABOUT_CONTENT.whoIAm.map((para, idx) => (
-              <p key={idx} className="text-2xl md:text-3xl text-gray-800 font-light leading-tight tracking-tight">
+              <p key={idx} className="text-xl md:text-xl text-gray-800 font-light leading-tight tracking-tight">
                 {para}
               </p>
             ))}
